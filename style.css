@@ -1,0 +1,50 @@
+#head {
+    font-size: 50px;
+    background-color: coral;
+    font-family: 'Delius', cursive;
+    width: 70%;
+    border-radius: 10px;
+}
+
+#start {
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#no_of_objects {
+    background-color: chartreuse;
+    color: white;
+    width: max-content;
+    border-radius: 10px;
+}
+
+#status {
+    background-color: crimson;
+    width: max-content;
+    color: yellow;
+    border-radius: 10px;
+}
+
+#foot {
+    background-color: gray;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 2;
+}
+
+canvas {
+    border: white;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#status {
+    float: right;
+}
+
+#no_of_objects {
+    float: left;
+}
