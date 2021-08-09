@@ -23,7 +23,7 @@ function draw(){
             fill('indianred');
             percent = floor(objects[i].confidence*100)
             text(objects[i].label + " " + percent + "%" + "🔫🔫pichkari go brrrrrrr", objects[i].x + 15, objects[i].y + 15);
-            nofill();
+            noFill();
             stroke('indianred');
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
